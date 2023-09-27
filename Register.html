@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - InterioGem</title>
+    <link rel="stylesheet" href="Register.css">
+    <style>
+
+#f1{
+    width:51%;
+    margin-left: 29px;
+}
+p,h1{
+    margin-left: 89px;
+}
+#font{
+    font-size: 3rem;
+    line-height: 1.7;
+}
+
+span{
+    color:rgb(240, 6, 100);
+}
+::placeholder{
+    color:rgba(219, 217, 217, 0.8);
+}
+    
+        /*responsive*/
+
+@media  screen and (max-width:840px){
+    .con-left {
+        top: 12%;
+        margin-left: 2px;
+    }
+    .container{
+        height:300px;
+        width:100%;
+    }
+    .con-right{
+        margin-left: 450px;
+        height:600px;
+        width:450px;
+        position : absolute ;    
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+@media  screen and (max-width:600px){
+    
+    .container{
+        height:600px;
+        width:100%;
+    }
+    .con-left{
+        top: 4%;
+        margin-left: 2px;
+    }
+    .con-right{
+        top:23%;
+        margin-left: 80px;
+        height:520px;
+        width:410px;    
+    }
+    input[type=button]{
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+    #font{
+        font-size: 1rem;
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="con-left">
+            <h1 id="font"><i><span>BRINGING</span> CREATIVE INTERIORS<span> INTO</span><br>YOUR LIFE</i></h1>
+            <p style="color:rgb(240, 6, 100);"><b>Register Now!</b></p>
+            
+            
+        </div>
+        
+        <div class="con-right">
+            <form action="" method="get">
+                <center><h1 style="color:white; padding-right: 90px;">Registration</h1></center>
+                
+                <br>
+                <label><b>Username</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Username..." >
+                <br>
+                <br>
+                <label><b>Fname</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Fname" >     
+                <br> 
+                <br>        
+                <label><b>Lname</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Lname"> 
+                <br> 
+                <br>           
+                <label><b>Phone No.</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" placeholder="Phone Number">
+                <br>
+                <br>
+                <label><b>Email Address</b></label>
+                <input type="email" placeholder="you@example.com">
+                <br> 
+                <br>              
+                <label><b>Password</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" placeholder="Enter 6 character or more" id="f1">
+                <br> 
+                <br>               
+                <label><b>Confirm</b></label>
+                <br>
+                <label><b>Password</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" placeholder="Re-enter your password" id="f1">
+                <br>
+                <br>
+                <br>
+               <a href="Signin.html"><input type="submit" value="REGISTER"></a>
+               <p style="font-size: 16px; padding-top: -2px;color: white;"> Already have an account? <a href="Signin.html"> Login Here </a> </p>
+                
+            </form>
+            
+        </div>
+    </div>
+    </div>
+        
+</body>
+</html>

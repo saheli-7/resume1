@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Quicksand:wght@300&display=swap');
+
+    *{
+        margin:0;
+        padding:0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;  
+    }
+    body{
+        margin: 0;
+        background: cover;
+        font-family: sans-serif;
+    
+    }
+    
+    /*Nav bar*/
+    
+    nav{
+        
+        height: 80px;
+        width:100%;
+        background-color: black;
+        overflow: hidden;
+        z-index: 1;
+        
+    }
+    
+    label.logo{
+        color:rgb(240, 6, 100);
+        font-size: 3rem;
+        line-height:80px;
+        padding: 0 100px;
+        font-weight: bold;
+        font-family:'dancing script',sans-serif;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin:0 5px;
+    }
+    nav ul li a{
+        color:white;
+        font-size: 17px;
+        padding: 7px 13px;   
+    }
+    nav ul li a:hover{
+        color:white;
+        font-size: 17px;
+        padding: 7px 13px;
+        background-color: rgb(240, 6, 100);
+        box-shadow: 5px 5px rgb(163, 27, 82);
+        transition: 0.5s ease-in all;
+        
+    }
+    nav ul li a.active{
+        background-color: rgb(240, 6, 100);
+        box-shadow: 5px 5px rgb(163, 27, 82);
+    }
+    .checkbtn{
+        font-size: 30px;
+        color:bisque;
+        float:right;
+        line-height:80px ;
+        margin-right: 40px;
+        cursor:pointer;
+        display: none;
+    }
+    #check{
+        display:none;
+    
+    }
+
+    /* Container */
+    .container{
+        height: 610px;
+        width: 100%;
+    }
+    img{
+        height: 610px;
+        width: 100%;
+        background-size: cover;
+    }
+    .login{
+        position: absolute;
+        top:47%;
+        width: 470px;
+        height:450px;
+        margin-left: 450px;
+        background-color: rgb(222, 7, 93,0.9);
+        left : 22%;
+        transform:translate(-50%,-50%);
+        border-radius: 30px;
+    }
+    ::placeholder{
+        color:rgba(215, 212, 212, 0.7);
+    }
+    input[type=email], input[type=password]{
+        border:none;
+        color:white;
+        width: 70%;
+        padding:4px 8px;
+        margin-left: 60px;
+        outline: none;
+        font-size: 16px;
+        border-bottom:2px solid white ;
+        background: transparent;
+    }
+    
+    input[type=button]{
+        background-color: whitesmoke;
+        color:black;
+        font-size: 18px;
+        font-weight: bold;
+        font-display: block;
+        border-radius: 10px;
+        width:35%;
+        height: 43px;
+        margin-left: 140px;
+        margin-bottom: 16px;
+        cursor:pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        border: none;
+    }
+    input[type=button]:hover{
+        background-color: black;
+        color:white;
+        box-shadow: 3px 3px rgba(88, 2, 36, 0.904);
+        transition: 0.5s ease-in all;
+    }
+        p{
+            color: white;
+            padding-left: 60px;
+            font-size: 15px;
+            font-weight:200;
+        }
+        h1{
+            color: white;
+            font-size: 1.4rem;
+        }
+        .highlight{
+            color: black;
+            font-size: 16px;
+        }
+
+
+    /* Footer */
+
+
+        .footer{
+            height:380px;
+            width:100%;
+            display:flex;
+            position: absolute;
+            top:110%;
+            background-color: black;
+            color:white;
+          }
+      
+          /*Left Box*/
+          .left-box{
+              height:320px;
+              width:34%;
+              color:white;
+              padding-left: 3%;
+          }
+      
+          /*font*/
+          .font1{
+              font-size: 1rem;
+              padding-top: 27px;
+              padding-left: 13px;
+          }
+      
+          .font2{
+              font-size: 1rem;
+              padding-top: 37px;
+              padding-left: 13px;
+              color:rgb(232, 8, 127) ;
+          }
+      
+          /*description*/
+          .des1{
+              font-size: 1rem;
+              padding-top: 25px;
+              padding-left: 5px;
+              color: white;
+              line-height: 1.7;
+          }
+          #border-3{
+              position: absolute;
+              left:5.5%;
+              padding-top: 27px;
+              transform:translate(-50%,-50%); 
+              border-bottom: 3px solid rgb(240, 6, 100);
+              width:40px;
+              }
+      
+      
+          /*Middle box*/
+      
+          .middle-box{
+              height:320px;
+              width:33%;
+              color:white;
+              padding-left: 4%;
+          }
+         
+          /*font*/
+          .font3{
+              font-size: 1rem;
+              padding-top: 27px;
+              padding-left: 13px;
+          }
+      
+          /*description*/
+          .des2{
+              font-size: 1rem;
+              padding-top: 36px;
+              padding-left: 13px;
+              color:white;
+              line-height: 2.3;
+              font-size: 1rem;
+          }
+          #border-4{
+              position: absolute;
+              left:40.6%;
+              padding-top: 27px;
+              transform:translate(-50%,-50%); 
+              border-bottom: 3px solid rgb(240, 6, 100);
+              width:40px;
+              }
+      
+      
+          /*Right box*/
+          .right-box{
+              height:320px;
+              width:33%;
+              color:white;
+              padding-left: 5.5%;
+          }
+      
+          
+          /*font*/
+          .font4{
+              font-size: 1rem;
+              padding-top: 27px;
+              padding-left: 10px;
+          }
+      
+          /*description*/
+          .des3{
+              font-size: 1rem;
+              padding-top: 40px;
+              padding-left: 10px;
+              color:white;
+              line-height:2.3;
+          }
+          #border-5{
+              position: absolute;
+              left:75.3%;
+              padding-top: 27px;
+              transform:translate(-50%,-50%); 
+              border-bottom: 3px solid rgb(240, 6, 100);
+              width:50px;
+              }
+      
+          .footer1{
+            height:50px;
+              width:100%;
+              background-color: black;
+              position: absolute;
+              display: flex;
+              margin-top: 330px;
+              border-top: 1px solid rgb(232, 8, 127) ;
+              color:white;
+          }
+          .font5{
+            font-size: 13px;
+              padding-left: 40%;
+              padding-top:1.5%;
+          }
+
+
+    /*responsive*/
+
+    @media  screen and (max-width:858px){
+        img{
+            overflow: hidden;
+            height: 600px;
+        }
+        .login {
+            margin-left: 150px;
+            height: 450px;
+            width: 450px;
+            position: absolute;
+            top: 64%;
+            left: 28%;
+            transform: translate(-50%,-50%);
+        }
+        /*For Responsive navbar*/
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        z-index: 2;
+        position: fixed;
+        width:100%;
+        height:max-content;
+        background: black;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav{
+        overflow: hidden;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin:50px 0;
+        line-height: 10px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+    
+@media  screen and (max-width:1200px){
+    /*Container - 2*/
+.subheading{
+       padding-top: 70px;
+    }  
+}
+
+    @media  screen and (max-width:600px){
+        img{
+            overflow: hidden;
+            height: 600px;
+        }
+        .login{
+            margin-left: 15px;
+            height:500px;
+            width:430px;
+            position : absolute ;
+            top :70% ; 
+            left : 47%; 
+            transform:translate(-50%,-50%);
+        }
+    
+    }

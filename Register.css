@@ -1,0 +1,149 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin:0;
+    background: cover;
+    overflow: hidden;
+}
+.container{
+    height:608px;
+    width:100%;
+
+}
+.con-left {
+    position: absolute;
+    top: 22%;
+    width: 700px;
+    height: 400px;
+    margin-left: 100px;
+    background-color: white;
+}
+.con-right {
+    position: absolute;
+    top: 17%;
+    width: 450px;
+    height: 550px;
+    border-radius: 30px;
+    margin-left: 770px;
+    background-color:rgb(240, 6, 100);
+}
+
+input[type=text],input[type=number],input[type=email], input[type=password]{
+    border:none;
+    color:white;
+    width: 50%;
+    padding:4px 1px;
+    margin-left: 30px;
+    outline: none;
+    font-size: 13px;
+    border-bottom:1.4px solid white ;
+    background: transparent;
+}
+input[type=submit]{
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    font-display: block;
+    border-radius: 10px;
+    width:30%;
+    height: 40px;
+    margin-left: 160px;
+    margin-bottom: 16px;
+    cursor:pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 5px 5px rgba(88, 2, 36, 0.904);
+    transition: 0.4s ease-in all;
+}
+label{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+}
+img{
+    height: 350px;
+    width:550px;
+    margin-left: 90px;
+    margin-top: 225px;
+    box-shadow: 15px 15px 15px 1px rgb(163, 27, 82); ;
+}
+p{
+    font-size: 26px;
+    color:rgb(167, 6, 71);
+}
+h1{
+    color:black;
+}
+
+
+/*responsive*/
+
+@media  screen and (max-width:840px){
+    img{
+        display:none;
+    }
+    .container{
+        height:300px;
+        width:100%;
+    }
+    .con-right{
+        margin-bottom: 200px;
+        margin-left: 450px;
+        height:600px;
+        width:450px;
+        position : absolute ;
+        
+    }
+    .con-left{
+        margin-bottom: 400px;
+        margin-left: 50px;
+        height:100px;
+        width:430px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media  screen and (max-width:600px){
+    img{
+        display:none;
+    }
+    .container{
+        height:700px;
+        width:100%;
+
+    }
+    .con-right{
+        top:10%;
+        margin-left: 100px;
+        height:600px;
+        width:480px;
+
+        
+    }
+    .con-left{
+        height:100px;
+        width:430px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+
+}

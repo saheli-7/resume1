@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: sans-serif;
+    background-image: url('nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height:100vh;
+    background-position:center; 
+    overflow-x: hidden;
+}
+
+/*Nav bar*/
+
+nav{
+    
+    height: 80px;
+    width:100%;
+    background-color: black;
+}
+label.logo{
+    color:rgb(232, 8, 127);
+    font-size: 3rem;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family:'dancing script',sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    
+}
+nav ul li a:hover{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82);
+    transition: 0.5s ease-in all;
+    
+}
+nav ul li a.active{
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82) ;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:bisque;
+    float:right;
+    line-height:80px ;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display:none;
+
+}
+
+/*header*/
+.header{
+    height: 450px;
+    width:100%;
+    background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 65%;
+    background-blend-mode: darken;
+}
+
+/*center-div*/
+.center-div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    left: 50%;
+    padding-top: 27%;
+    transform: translate(-50%,-50%);
+    font-size: 1.6rem;
+  }
+
+  /*border*/
+  #border-1{
+    position: absolute;
+    left:50%;
+    margin-top: 50%;
+    transform:translate(-50%,-50%); 
+    border-bottom: 3px solid rgb(240, 6, 100);
+    width:90px;
+  }
+
+  /*container*/
+  .container{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    position:relative;
+    top: 47%;
+
+  }
+
+  /*box*/
+
+.box-1{
+    position:relative;
+    left:6%;
+    border-radius: 10px;
+    gap:20px;
+    }
+
+.box-2{
+        position: relative;
+        left:11%;
+        border-radius: 10px;
+        gap:20px;
+    }
+.box-3{
+        position: relative;
+        left:16%;
+        border-radius: 10px;
+        gap:20px;
+    }
+.box-4{
+        position: relative;
+        left:21%;
+        border-radius: 10px;
+        gap:20px;
+    }
+
+    /*image*/
+    img{
+        height:300px;
+        width:300px;
+        border-radius: 10px;
+    }
+    .adjust{
+        height:400px;
+        width:300px;
+    }
+
+    /*font*/
+    .font{
+        font-size: 1.7rem;
+        padding-top: 48px;
+        padding-left: 5px;
+    }
+
+    /*description*/
+    .des{
+        font-size: 1.3rem;
+        padding-top: 27px;
+        padding-left: 5px;
+        color: rgb(83, 81, 81);
+        line-height: 1.8;
+    }
+
+    /*read-button*/
+    .read-button {
+        background-color:rgb(232, 8, 127);
+        color:white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 0px;
+        cursor:pointer;
+        position: absolute;
+        top:150%;
+        left:32%; 
+        transform: translate(-50%,-50%);
+        justify-content: center; 
+        border-radius: 5px;
+        box-shadow: 7px 7px rgb(163,27,82) ;
+        font-size: 20px;
+    }
+    .read-button:hover {
+            background-color: black;
+            box-shadow: none;
+            transition: 0.5s ease-in all;
+            cursor: pointer;
+    }
+
+    /*content*/
+    .content{
+        position: absolute;
+        top:210%;
+        height: 550px;
+        width:100%;
+        background-image: url(https://thewowstyle.com/wp-content/uploads/2015/04/lovely-smart-interior-decoration-in-pink-and-white.jpg) ;
+        background-color:rgb(145, 4, 79);
+        color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 20% 45%;
+        background-blend-mode:darken;
+        font-size: 20px;
+    }
+
+    /*center-div1*/
+    .center-div1 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; 
+        left: 50%;
+        padding-top: 25%;
+        transform: translate(-50%,-50%);
+        font-size: 20px;
+      }
+
+      /*learn-button*/
+      .learn-button {
+        height: 65px;
+        width:15%;
+        background-color:white;
+        color:rgb(184, 5, 76);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top:70%;
+        left: 47%; 
+        transform: translate(-50%,-50%);
+        text-align: center;
+        border-radius: 5px;
+    }
+    .learn-button:hover {
+        background-color: white;
+    }
+
+    
+    
+    /*footer*/
+
+    .footer{
+      height:320px;
+      width:100%;
+      display:flex;
+      position: absolute;
+      top:276%;
+      background-color: black;
+      color:white;
+    }
+
+    /*Left Box*/
+    .left-box{
+        height:320px;
+        width:34%;
+        color:white;
+        padding-left: 3%;
+    }
+
+    /*font*/
+    .font1{
+        font-size: 1.7rem;
+        padding-top: 27px;
+        padding-left: 13px;
+    }
+
+    .font2{
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-left: 13px;
+        color:rgb(232, 8, 127) ;
+    }
+
+    /*description*/
+    .des1{
+        font-size: 1.2rem;
+        padding-top: 25px;
+        padding-left: 5px;
+        color: white;
+        line-height: 1.7;
+    }
+    #border-2{
+        position: absolute;
+        left:6%;
+        padding-top: 27px;
+        transform:translate(-50%,-50%); 
+        border-bottom: 3px solid rgb(240, 6, 100);
+        width:70px;
+        }
+
+
+    /*Middle box*/
+
+    .middle-box{
+        height:320px;
+        width:33%;
+        color:white;
+        padding-left: 4%;
+    }
+   
+    /*font*/
+    .font3{
+        font-size: 1.7rem;
+        padding-top: 27px;
+        padding-left: 13px;
+    }
+
+    /*description*/
+    .des2{
+        font-size: 1.3rem;
+        padding-top: 20px;
+        padding-left: 13px;
+        color:white;
+        line-height: 2.3;
+        font-size: 1.3rem;
+    }
+    #border-3{
+        position: absolute;
+        left:41%;
+        padding-top: 27px;
+        transform:translate(-50%,-50%); 
+        border-bottom: 3px solid rgb(240, 6, 100);
+        width:70px;
+        }
+
+
+    /*Right box*/
+    .right-box{
+        height:320px;
+        width:33%;
+        color:white;
+        padding-left: 5.5%;
+    }
+
+    
+    /*font*/
+    .font4{
+        font-size: 1.7rem;
+        padding-top: 27px;
+        padding-left: 10px;
+    }
+
+    /*description*/
+    .des3{
+        font-size: 1.3rem;
+        padding-top: 20px;
+        padding-left: 10px;
+        color:white;
+        line-height:1.7;
+    }
+    #border-4{
+        position: absolute;
+        left:75.2%;
+        padding-top: 27px;
+        transform:translate(-50%,-50%); 
+        border-bottom: 3px solid rgb(240, 6, 100);
+        width:70px;
+        }
+
+    .footer1{
+        height:100px;
+        width:100%;
+        background-color: black;
+        position: absolute;
+        display: flex;
+        top:314%;
+        border-top: 1px solid rgb(232, 8, 127) ;
+        color:white;
+    }
+    .font5{
+        font-size: 1rem;
+        padding-left: 40%;
+        padding-top:3.3%;
+    }
+    
+
+
+   /*Responsive*/
+   
+@media  screen and (max-width:1070px){
+    .header{
+
+        height:370px;
+        width:100%;
+    }
+}
+@media(max-width:858px){
+
+    /*For Responsive navbar*/
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width:100%;
+        height:max-content;
+        background:  rgb(0,0,0,0.5);
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin:50px 0;
+        line-height: 10px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+
+/*Responsive*/
+   
+@media  screen and (max-width:1070px){
+    .container{
+        flex-direction: column;
+        height: 2000px;
+        width:100%;
+       
+    }
+    .adjust{
+        height: 350px;
+        width: 270px;
+        left: 22%;
+    }
+    .box-1{
+       position: absolute;
+       
+    }
+    .box-2{
+        position: absolute;
+        top: 35%; 
+        gap:10px;
+    }
+    .box-3{
+        position: absolute;
+        top: 70%; 
+        gap:10px;
+    }
+
+    .box-4{
+        position: absolute;
+        top: 105%; 
+        gap:10px;
+    }
+
+    img{
+        height:300px;
+        overflow: hidden;
+    }
+    .read-button{
+        height: 70px;
+        width: 75%;
+        top:170%;
+        left:37%;
+        background-color:rgb(232, 8, 127);
+    } 
+    
+}
+
+@media screen and (max-width:800px){
+    .center-div{
+        display:flex;
+        font-size: 1rem;
+        padding-top: 60%;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .content{
+        display: flex;
+        position: absolute;
+        top:400%;
+    }
+    .center-div1{
+        display: flex;
+        top:30%;
+        font-size: 1rem;
+    }
+    .learn-button{
+        height: 85px;
+        width:25%;
+        color:rgb(184, 5, 76);
+
+    }
+}
+
+/*Responsive Footer*/
+@media screen and (max-width:800px){
+    .footer{
+        height: 500px;
+        position: absolute;
+        display: flex;
+        top:459%;
+    }
+    .des2{
+        font-size: 1rem;
+    }
+    #border-2{
+        position: absolute;
+        left:11%;
+    }
+    #border-3{
+        position: absolute;
+        left:47%;
+    }
+    #border-4{
+        position: absolute;
+        left:80%;
+    }
+    .footer1{
+        position: absolute;
+        display: flex;
+        top:512%;
+    }
+    .font5{
+        padding-left: 32%;
+        padding-top: 7%;
+    }
+}
+

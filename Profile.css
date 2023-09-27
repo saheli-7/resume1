@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Libre+Baskerville:ital@0;1&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;  
+}
+body{
+    font-family: sans-serif;
+
+}
+
+/*Nav bar*/
+
+nav{
+    
+    height: 80px;
+    width:100%;
+    background-color: black;
+    overflow: hidden;
+}
+label.logo{
+    color:rgb(240, 6, 100);
+    font-size: 3rem;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family:'dancing script',sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;   
+}
+nav ul li a:hover{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82);
+    transition: 0.5s ease-in all;
+    
+}
+nav ul li a.active{
+    background-color: rgb(240, 6, 100);
+    box-shadow: 5px 5px rgb(163, 27, 82);
+}
+#log-out{
+    height: 50px;
+    width: 90px;
+    border: 2px solid rgb(240, 6, 100);
+    border-radius: 10px;
+}
+#log-out:hover{
+    background-color:none;
+    box-shadow: none;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color:bisque;
+    float:right;
+    line-height:80px ;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display:none;
+
+}
+
+/*Container-1*/
+
+.box-1{
+    position: absolute;
+    top:2%;
+    float: left;
+    width: 550px;
+    height:100px;
+    margin: 30px;
+    /*background-color: rgb(240, 6, 100);
+    box-shadow: 15px 15px rgb(163, 27, 82);*/
+    border-radius: 5px;
+}
+.head{
+    padding-top: 100px;
+    padding-left: 80px;
+    /*color: rgb(240, 6, 100);*/
+    color: white;
+   
+}
+#heading-1{
+    font-size: 2.7rem;
+    font-weight: bold;
+
+}
+#heading-2{
+    padding-top: 20px;
+    font-size: 1.5rem;   
+}
+/*Container - 2*/
+
+
+.container-2{
+    display: flex;
+    position: absolute;
+    top:150%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    height:1050px;
+    width:100%;
+
+  
+}
+
+#profile-pic{
+    position: absolute;
+    padding-top: 110px;
+    left:50%;
+    transform:translate(-50%,-50%); 
+}
+#profile-pic img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-size: cover;
+    
+}
+
+.right{
+    height:500px;
+    width:700px;
+    position:absolute;
+    margin-top: 400px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,-50%); 
+ 
+}
+
+label{
+    margin: 20px;
+}
+input{
+    margin: 20px;
+    height: 50px;
+    padding: 10px;
+    width: 300px;
+    border: 0.1px solid rgb(169, 166, 166);
+    border-radius: 8px;
+}
+input:focus{
+    outline: none;
+    background-color: #ebe9e9;
+    border: none;
+
+}
+#email-1{
+    width: 640px;
+}
+button{
+    width:150px;
+    height: 40px;
+    font-size: 1rem;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(240, 6, 100);
+    color: white;
+    font-weight: bold;
+    box-shadow: 7px 7px rgb(163, 27, 82);
+        
+    }
+    button:hover{
+        background-color: black;
+        box-shadow: none;
+        transition: 0.5s ease-in all;
+        cursor: pointer;
+    }
+
+#button-1{
+    position: absolute;
+    left: 23%;
+    
+}
+#button-2{
+    position: absolute;
+    left: 53%;
+}
+
+
+/* Footer */
+
+
+.footer{
+    height:380px;
+    width:100%;
+    display:flex;
+    position: absolute;
+    top:200%;
+    background-color: black;
+    color:white;
+  }
+
+
+
+  /*Left Box*/
+  .left-box{
+      height:320px;
+      width:34%;
+      color:white;
+      padding-left: 3%;
+  }
+
+  /*font*/
+  .font1{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 13px;
+  }
+
+  .font2{
+      font-size: 1rem;
+      padding-top: 37px;
+      padding-left: 13px;
+      color:rgb(232, 8, 127) ;
+  }
+
+  /*description*/
+  .des1{
+      font-size: 1rem;
+      padding-top: 25px;
+      padding-left: 5px;
+      color: white;
+      line-height: 1.7;
+  }
+  #border-3{
+      position: absolute;
+      left:5.5%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:40px;
+      }
+
+
+  /*Middle box*/
+
+  .middle-box{
+      height:320px;
+      width:33%;
+      color:white;
+      padding-left: 4%;
+  }
+ 
+  /*font*/
+  .font3{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 13px;
+  }
+
+  /*description*/
+  .des2{
+      font-size: 1rem;
+      padding-top: 36px;
+      padding-left: 13px;
+      color:white;
+      line-height: 2.3;
+      font-size: 1rem;
+  }
+  #border-4{
+      position: absolute;
+      left:40.6%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:40px;
+      }
+
+
+  /*Right box*/
+  .right-box{
+      height:320px;
+      width:33%;
+      color:white;
+      padding-left: 5.5%;
+  }
+
+  
+  /*font*/
+  .font4{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 10px;
+  }
+
+  /*description*/
+  .des3{
+      font-size: 1rem;
+      padding-top: 40px;
+      padding-left: 10px;
+      color:white;
+      line-height:2.3;
+  }
+  #border-5{
+      position: absolute;
+      left:75.3%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:50px;
+      }
+
+  .footer1{
+    height:50px;
+      width:100%;
+      background-color: black;
+      position: absolute;
+      display: flex;
+      margin-top: 330px;
+      border-top: 1px solid rgb(232, 8, 127) ;
+      color:white;
+  }
+  .font5{
+    font-size: 13px;
+      padding-left: 40%;
+      padding-top:1.5%;
+  }
+
+
+  /*Left Box*/
+  .left-box{
+      height:320px;
+      width:34%;
+      color:white;
+      padding-left: 3%;
+  }
+
+  /*font*/
+  .font1{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 13px;
+  }
+
+  .font2{
+      font-size: 1rem;
+      padding-top: 37px;
+      padding-left: 13px;
+      color:rgb(232, 8, 127) ;
+  }
+
+  /*description*/
+  .des1{
+      font-size: 1rem;
+      padding-top: 25px;
+      padding-left: 5px;
+      color: white;
+      line-height: 1.7;
+  }
+  #border-3{
+      position: absolute;
+      left:5.5%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:40px;
+      }
+
+
+  /*Middle box*/
+
+  .middle-box{
+      height:320px;
+      width:33%;
+      color:white;
+      padding-left: 4%;
+  }
+ 
+  /*font*/
+  .font3{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 13px;
+  }
+
+  /*description*/
+  .des2{
+      font-size: 1rem;
+      padding-top: 36px;
+      padding-left: 13px;
+      color:white;
+      line-height: 2.3;
+      font-size: 1rem;
+  }
+  #border-4{
+      position: absolute;
+      left:40.6%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:40px;
+      }
+
+
+  /*Right box*/
+  .right-box{
+      height:320px;
+      width:33%;
+      color:white;
+      padding-left: 5.5%;
+  }
+
+  
+  /*font*/
+  .font4{
+      font-size: 1rem;
+      padding-top: 27px;
+      padding-left: 10px;
+  }
+
+  /*description*/
+  .des3{
+      font-size: 1rem;
+      padding-top: 40px;
+      padding-left: 10px;
+      color:white;
+      line-height:2.3;
+  }
+  #border-5{
+      position: absolute;
+      left:75.3%;
+      padding-top: 27px;
+      transform:translate(-50%,-50%); 
+      border-bottom: 3px solid rgb(240, 6, 100);
+      width:50px;
+      }
+
+  .footer1{
+    height:50px;
+      width:100%;
+      background-color: black;
+      position: absolute;
+      display: flex;
+      margin-top: 330px;
+      border-top: 1px solid rgb(232, 8, 127) ;
+      color:white;
+  }
+  .font5{
+    font-size: 13px;
+      padding-left: 40%;
+      padding-top:1.5%;
+  }
+
+
+/*---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------*/
+
+/*Responsive*/
+@media  screen and (max-width:740px){
+
+    .container-1{
+        overflow: hidden;
+
+    }
+    .box-1{
+        width: 300px;
+        height:50px;
+        margin: 30px;
+    }
+    .heading{
+        padding-top: 50px;
+    }
+    #heading-1{
+        position: absolute;
+        
+        font-size: 1.9rem;
+    }
+    #heading-2{
+        padding-top: 50px;
+        font-size: 1.4rem;   
+    }   
+
+    /* Conatiner - 2 */
+    .container-2{
+        overflow: hidden;
+        position: absolute;
+        top:110%;
+        flex-direction: column;
+        padding-block: 20px;
+ 
+             
+    }
+    .right{
+        height:500px;
+        width:700px;
+        position:absolute;
+
+        position: absolute;
+        left:50%;
+        transform:translate(-50%,-50%); 
+     
+    }
+    label{
+        font-size: 1.3rem;
+    }
+    
+    input{
+        font-size: 1.1rem;
+        width: 400px !important;
+    }
+
+    #name{
+        position: absolute;
+        left:20%;      
+    }
+    #fname{
+        position: absolute;
+        left:20%; 
+        margin-top: 5%;
+
+    }
+    #lname{
+        position: absolute;
+        left:20%; 
+        margin-top:16%;
+
+    }
+    #uname{
+        position: absolute;
+        left:20%;
+        top:37%;
+    }
+    #uname-1{
+        position: absolute;
+        left:20%;
+        margin-top:27%;
+    }
+    #phn{
+        position: absolute;
+        left:-12%;
+        top:59%;
+
+    }
+    #phn-1{
+        position: absolute;
+        left:20%;
+        margin-top:43%;
+
+    }
+    #email{
+        position: absolute;
+        top:83%;
+        left:20%;
+
+    }
+    #email-1{
+        position: absolute;
+        left:20%;
+        margin-top:55%;
+
+    }
+    #pass{
+        position: absolute;
+        top:106%;
+        left:20%;
+
+    }
+    #pass-1{
+        position: absolute;
+        left:20%;
+        margin-top:69%;
+
+    }
+    #cpass{
+        position: absolute;
+        top:130%;
+        left:-12%;
+    }
+    #cpass-1{
+        position: absolute;
+        left:20%;
+        margin-top:87%;
+
+    }
+    #button-1{
+        position: absolute;
+        top:155%;
+
+    }
+    #button-2{
+        position: absolute;
+        top:155%;
+
+    }
+}
+
+
+
+
+
+
+/*----------------------------- NAVBAR   ----------------------------------*/
+
+@media(max-width:858px){
+
+    /*For Responsive navbar*/
+    .logo{
+        font-size: 10px;
+
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        z-index: 1;
+        position: fixed;
+        width:100%;
+        height:max-content;
+        background: black;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav{
+        overflow: hidden;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin:50px 0;
+        line-height: 10px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+@media  screen and (max-width:1200px){
+    /*Container - 2*/
+.subheading{
+       padding-top: 70px;
+    }  
+}
